@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "axios": "^0.24.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.0",
+    "fastest-levenshtein": "^1.0.12",
+    "fuse.js": "^6.5.3",
+    "parse-wikitext": "^1.0.0"
+  }
+}

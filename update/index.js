@@ -1,0 +1,5 @@
+require('child_process').spawnSync("node", ["update/listgen.js"], { cwd: __dirname + "/..", stdio: "inherit" })
+require('child_process').spawnSync("node", ["update/pages.js"], { cwd: __dirname + "/..", stdio: "inherit" })
+require('child_process').spawnSync("node", ["update/infobox.js"], { cwd: __dirname + "/..", stdio: "inherit" })
+require('child_process').spawnSync("node", ["update/parse.js"], { cwd: __dirname + "/..", stdio: "inherit" })
+require('child_process').spawnSync("node", ["update/dict.js"], { cwd: __dirname + "/..", stdio: "inherit" })
